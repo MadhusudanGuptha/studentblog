@@ -1,11 +1,19 @@
+html{
+  height: 100;
+}
 body {
-    background: #fafafa;
+  background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #333333;
-    margin-top: 5rem;
+    margin: 5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: azure;
   }
   
   ul {
@@ -37,7 +45,7 @@ body {
   }
   
   .article-title {
-    color: #444444;
+    color: #428bca;
   }
   
   a.article-title:hover {
